@@ -17,6 +17,8 @@ function telkbomb($no, $jum, $wait){
         flush();
     }
 }
+figlet "SPAM TELKOMSEL BY RIVAL"
+
 echo "Nomor mantan: ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah Pesan: ";
@@ -27,4 +29,3 @@ $execute = telkbomb($nomor, $jumlah, $jeda);
 print $execute;
 ?>
 
-figlet "SPAM TELKOMSEL BY RIVAL"
