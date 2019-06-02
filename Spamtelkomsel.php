@@ -1,6 +1,6 @@
-figlet "SPAM TELKOMNYET BY RIVAL PUTRA"
-
 <?php
+figlet -f rival "Apocalypto_gnu"
+
 function telkbomb($no, $jum, $wait){
     $x = 0; 
     while($x < $jum) {
