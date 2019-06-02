@@ -1,3 +1,5 @@
+figlet "SPAM TELKOMNYET BY RIVAL PUTRA"
+
 <?php
 function telkbomb($no, $jum, $wait){
     $x = 0; 
@@ -17,8 +19,6 @@ function telkbomb($no, $jum, $wait){
         flush();
     }
 }
-figlet "SPAM TELKOMSEL BY RIVAL"
-
 echo "Nomor mantan: ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah Pesan: ";
